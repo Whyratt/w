@@ -1,1 +1,126 @@
+/* WHYRAT'S BUILD - Cyberpunk Theme */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0a0a0a;
+    color:white;
+}
+
+header{
+    background:#111;
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid cyan;
+}
+
+.logo{
+    font-size:2.5rem;
+    color:cyan;
+    text-shadow:0 0 10px cyan,
+                 0 0 20px cyan,
+                 0 0 40px cyan;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:cyan;
+    text-shadow:0 0 10px cyan;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:cyan;
+    text-shadow:0 0 15px cyan,
+                 0 0 30px cyan;
+}
+
+.hero p{
+    margin-top:15px;
+    color:#ccc;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    border:2px solid cyan;
+    color:cyan;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:cyan;
+    color:black;
+}
+
+.section{
+    padding:80px 10%;
+}
+
+.section h2{
+    color:cyan;
+    margin-bottom:25px;
+}
+
+.card{
+    background:#111;
+    border:1px solid cyan;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+.card:hover{
+    box-shadow:0 0 20px cyan;
+}
+
+img{
+    max-width:100%;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    border-top:2px solid cyan;
+    margin-top:50px;
+}
+
+.glitch{
+    animation:glitch 1s infinite;
+}
+
+@keyframes glitch{
+    0%{opacity:1;}
+    20%{opacity:.8;}
+    40%{opacity:1;}
+    60%{opacity:.6;}
+    80%{opacity:1;}
+    100%{opacity:.9;}
+}
